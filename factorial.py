@@ -4,3 +4,10 @@ def factorial(x):
         total *= x
         x-=1
     return total
+
+
+def factorial(x):
+  fact = 1
+  for i in range(x, 1, -1):
+    fact =fact * i
+  return fact
