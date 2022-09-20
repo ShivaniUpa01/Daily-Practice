@@ -2,10 +2,10 @@
 # negative and zeros entered.
 def count_all_number():
     i = "1"
-    count = 0
+    count = ""
     while i == "1":
         num = int(input("Number : "))
-        count = 10 * count + num
+        count = count + str(num)
         print(count)
         i = "0"
         i = input("Continue if yes press 1 for no press 0 : ")
